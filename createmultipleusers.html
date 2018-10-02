@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Online Examination</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="style3"></div><div class="style_2"><span class="style3">
+<a href="#" title="Online Exam"><strong>For Adroid</strong></a></span>
+</div>
+
+<div id="wrap">
+<div id="topbar">
+  <h1 id="sitename"><a href="#">Online Examination </a></h1>
+  <div id="menus">
+  <ul id="topmenu">
+<li  class="active"><a href="#">Home</a>
+</li>
+<li><a href="createmultipleusers.html">Create Users</a>
+</li>
+<li><a href="createTest.html">Create Test</a>
+</li>
+<li><a href="UploadQuestions.html">Upload Questions</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="header">
+</div>
+<div id="content">
+<div id="mainpage">
+<h2>Create User</h2>
+<p>
+<form action="singleuser.php" method="POST">
+<table>
+<tr>
+<td>Username : </td><td><input name="uname"/></td>
+</tr>
+<tr>
+<td>Password : </td><td><input name="pass"/></td>
+</tr>
+<tr>
+<td>Type : </td><td><input name="type"/></td>
+</tr>
+
+<tr></tr>
+<tr></tr><tr></tr>
+<tr>
+<td></td><td><input type="submit" value="Create"/></td>
+</tr>
+</table>
+</form>
+
+<br/>
+
+<form name="uploaduserfile" method="POST" action="multipleusers.php" enctype="multipart/form-data">
+
+<br/>
+
+<br/><br/>
+<table>
+<tr>
+<h2>Create Multiple User</h2>
+</tr>
+<tr>
+<td>Upload CSV File : <input type="file" name="file" /></td>
+</tr>
+<tr>
+<td><input type="submit" value="Create"/></td>
+</tr>
+</table>
+</form>
+
+
+</p>
+<p><h5>CSV file Format</h5>
+
+<br/>
+roll number,user name,password,user type,college
+</p>
+</div>
+<div id="sidebar">
+
+</div>
+<div id="sidebarcontents"> 
+<ul id="menu">
+<li>
+  <h2>Admin Controll</h2>
+</li>
+<li>
+	<ul><li><a href="createmultipleusers.html">Create User</a></li>
+		<li><a href="createTest.html">Create Test</a></li>
+		<li><a href="UploadQuestions.html">Upload Questions</a></li>
+
+	</ul>
+</li>
+</ul>
+</div>
+
+  <div id="sidebarbottom"></div>
+</div>
+<div class="clear"></div>
+</div>
+
+</div>
+<div id="footer">
+<p>Copyright &copy; 2013 | Online Examination For Android Devices.</p>
+</div>
+</body>
+</html>
+
