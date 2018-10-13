@@ -1,9 +1,16 @@
 # GetMock
 
 
-Online Examination System for android in design to conduct online exams in class rooms, Teacher can create and upload test, after that teacher need to activate and the test will available for students from there android devices.
+Online Examination System for Android is design to conduct online examinations in class rooms, Teacher can create and upload test, after that teacher need to activate the respective tests and it will be available for students from there android devices.
 Features
 
     Conduct online exams in classroom
-
+    Remotely access the exams since almost everyone is having Smartphones
+    Accurate, fast and reliable results
+    
+Contribute
+1. Fork the repo
+2. Make it more better
+3. Submit a pull request
+4. Enjoy
 
