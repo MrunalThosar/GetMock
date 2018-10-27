@@ -13,4 +13,7 @@ Features
 2. Make it more better
 3. Submit a pull request
 4. Enjoy
+#nice website for Conduct online exams in classroom
+Remotely access the exams since almost everyone is having Smartphones
+Accurate, fast and reliable results
 
