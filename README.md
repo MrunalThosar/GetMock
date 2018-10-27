@@ -8,7 +8,7 @@ Features
     Remotely access the exams since almost everyone is having Smartphones
     Accurate, fast and reliable results
     
-Contribute
+#Contribute your idea
 1. Fork the repo
 2. Make it more better
 3. Submit a pull request
